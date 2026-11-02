@@ -1,0 +1,111 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="900" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#111814"/>
+      <stop offset="1" stop-color="#07100C"/>
+    </linearGradient>
+    <linearGradient id="lime" x1="246" y1="382" x2="961" y2="741" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#C9FF56"/>
+      <stop offset="1" stop-color="#1ED760"/>
+    </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" stroke="#D7F5E3" stroke-opacity=".055"/>
+    </pattern>
+    <filter id="glow" x="250" y="350" width="730" height="410" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feGaussianBlur stdDeviation="26"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="900" rx="32" fill="url(#bg)"/>
+  <rect width="1200" height="900" rx="32" fill="url(#grid)"/>
+  <circle cx="839" cy="517" r="220" fill="#1ED760" fill-opacity=".12" filter="url(#glow)"/>
+
+  <g font-family="Inter, Arial, sans-serif">
+    <rect x="76" y="68" width="38" height="38" rx="19" fill="#1ED760"/>
+    <path d="M86 81c8-3 17-2 24 2M88 87c6-2 13-1 18 2M90 93c5-1 9 0 13 2" stroke="#092014" stroke-width="2.4" stroke-linecap="round"/>
+    <text x="128" y="94" fill="#F4F7F2" font-size="17" font-weight="700" letter-spacing="2.4">A SPOTIFY DATA PROJECT</text>
+    <text x="1124" y="94" text-anchor="end" fill="#9CAB9F" font-size="15" font-weight="600" letter-spacing="2">MUSIC, MEASURED</text>
+
+    <text x="76" y="190" fill="#C9FF56" font-size="14" font-weight="700" letter-spacing="3.2">THE BIG QUESTION</text>
+    <text x="72" y="272" fill="#F6F8F4" font-size="62" font-weight="750" letter-spacing="-2.5">Why these five?</text>
+    <text x="76" y="319" fill="#B5C0B7" font-size="23" font-weight="400">Can Spotify explain why my top songs are my favorites?</text>
+    <path d="M76 357H1124" stroke="#D7F5E3" stroke-opacity=".16"/>
+
+    <text x="76" y="408" fill="#92A298" font-size="13" font-weight="700" letter-spacing="2.5">MY TOP 5</text>
+    <text x="1124" y="408" text-anchor="end" fill="#92A298" font-size="13" font-weight="700" letter-spacing="2.5">AUDIO FINGERPRINT</text>
+
+    <g>
+      <rect x="76" y="435" width="278" height="61" rx="14" fill="#18231C" stroke="#FFFFFF" stroke-opacity=".09"/>
+      <circle cx="108" cy="465" r="17" fill="#263A2A"/>
+      <text x="108" y="470" text-anchor="middle" fill="#C9FF56" font-size="12" font-weight="700">01</text>
+      <text x="139" y="462" fill="#F0F5EF" font-size="14" font-weight="700" letter-spacing="1.1">FAVORITE TRACK</text>
+      <text x="139" y="481" fill="#8F9D92" font-size="12">your song goes here</text>
+
+      <rect x="76" y="507" width="278" height="61" rx="14" fill="#18231C" stroke="#FFFFFF" stroke-opacity=".09"/>
+      <circle cx="108" cy="537" r="17" fill="#263A2A"/>
+      <text x="108" y="542" text-anchor="middle" fill="#C9FF56" font-size="12" font-weight="700">02</text>
+      <text x="139" y="534" fill="#F0F5EF" font-size="14" font-weight="700" letter-spacing="1.1">FAVORITE TRACK</text>
+      <text x="139" y="553" fill="#8F9D92" font-size="12">your song goes here</text>
+
+      <rect x="76" y="579" width="278" height="61" rx="14" fill="#18231C" stroke="#FFFFFF" stroke-opacity=".09"/>
+      <circle cx="108" cy="609" r="17" fill="#263A2A"/>
+      <text x="108" y="614" text-anchor="middle" fill="#C9FF56" font-size="12" font-weight="700">03</text>
+      <text x="139" y="606" fill="#F0F5EF" font-size="14" font-weight="700" letter-spacing="1.1">FAVORITE TRACK</text>
+      <text x="139" y="625" fill="#8F9D92" font-size="12">your song goes here</text>
+
+      <rect x="76" y="651" width="278" height="61" rx="14" fill="#18231C" stroke="#FFFFFF" stroke-opacity=".09"/>
+      <circle cx="108" cy="681" r="17" fill="#263A2A"/>
+      <text x="108" y="686" text-anchor="middle" fill="#C9FF56" font-size="12" font-weight="700">04</text>
+      <text x="139" y="678" fill="#F0F5EF" font-size="14" font-weight="700" letter-spacing="1.1">FAVORITE TRACK</text>
+      <text x="139" y="697" fill="#8F9D92" font-size="12">your song goes here</text>
+
+      <rect x="76" y="723" width="278" height="61" rx="14" fill="#18231C" stroke="#FFFFFF" stroke-opacity=".09"/>
+      <circle cx="108" cy="753" r="17" fill="#263A2A"/>
+      <text x="108" y="758" text-anchor="middle" fill="#C9FF56" font-size="12" font-weight="700">05</text>
+      <text x="139" y="750" fill="#F0F5EF" font-size="14" font-weight="700" letter-spacing="1.1">FAVORITE TRACK</text>
+      <text x="139" y="769" fill="#8F9D92" font-size="12">your song goes here</text>
+    </g>
+
+    <g opacity=".7">
+      <path d="M354 465C430 465 427 500 497 500M354 537C430 537 429 533 497 533M354 609H497M354 681C430 681 429 655 497 655M354 753C430 753 427 688 497 688" stroke="#8ECF69" stroke-opacity=".55" stroke-width="1.5"/>
+      <circle cx="497" cy="500" r="3" fill="#C9FF56"/>
+      <circle cx="497" cy="533" r="3" fill="#C9FF56"/>
+      <circle cx="497" cy="609" r="3" fill="#C9FF56"/>
+      <circle cx="497" cy="655" r="3" fill="#C9FF56"/>
+      <circle cx="497" cy="688" r="3" fill="#C9FF56"/>
+    </g>
+
+    <g>
+      <circle cx="772" cy="604" r="165" stroke="#D9F3DF" stroke-opacity=".12" stroke-width="1"/>
+      <circle cx="772" cy="604" r="131" stroke="#D9F3DF" stroke-opacity=".1" stroke-width="1"/>
+      <circle cx="772" cy="604" r="95" stroke="#D9F3DF" stroke-opacity=".1" stroke-width="1"/>
+      <circle cx="772" cy="604" r="58" fill="#17261B" stroke="#B8F46A" stroke-opacity=".45"/>
+      <path d="M772 439V769M607 604H937M655 487L889 721M889 487L655 721" stroke="#D9F3DF" stroke-opacity=".1"/>
+      <path d="M772 480L853 532L873 604L826 671L772 712L694 662L666 604L704 536Z" fill="url(#lime)" fill-opacity=".13" stroke="url(#lime)" stroke-width="3"/>
+      <circle cx="772" cy="480" r="5" fill="#C9FF56"/>
+      <circle cx="853" cy="532" r="5" fill="#C9FF56"/>
+      <circle cx="873" cy="604" r="5" fill="#C9FF56"/>
+      <circle cx="826" cy="671" r="5" fill="#C9FF56"/>
+      <circle cx="772" cy="712" r="5" fill="#C9FF56"/>
+      <circle cx="694" cy="662" r="5" fill="#C9FF56"/>
+      <circle cx="666" cy="604" r="5" fill="#C9FF56"/>
+      <circle cx="704" cy="536" r="5" fill="#C9FF56"/>
+      <circle cx="772" cy="604" r="45" fill="#1ED760"/>
+      <path d="M758 590C768 586 780 588 788 593M760 597C768 594 777 595 784 599M762 604C768 602 774 603 780 606" stroke="#0A1B10" stroke-width="3" stroke-linecap="round"/>
+      <text x="772" y="669" text-anchor="middle" fill="#D6E4D9" font-size="10" font-weight="700" letter-spacing="1.3">YOUR TASTE</text>
+    </g>
+
+    <g fill="#B9C9BD" font-size="12" font-weight="600" letter-spacing="1.1">
+      <text x="772" y="422" text-anchor="middle">ARTIST</text>
+      <text x="950" y="548">GENRE</text>
+      <text x="950" y="671">TEMPO</text>
+      <text x="772" y="800" text-anchor="middle">POPULARITY</text>
+      <text x="582" y="671" text-anchor="end">MOOD</text>
+      <text x="582" y="548" text-anchor="end">ENERGY</text>
+    </g>
+
+    <rect x="76" y="821" width="1048" height="1" fill="#D7F5E3" fill-opacity=".16"/>
+    <text x="76" y="854" fill="#AEBBB1" font-size="13">Spotify API  /  Comparing track features to look for patterns</text>
+    <text x="1124" y="854" text-anchor="end" fill="#C9FF56" font-size="13" font-weight="700" letter-spacing="1.2">EXPLORING THE SOUND OF FAVORITE SONGS</text>
+  </g>
+</svg>

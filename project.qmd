@@ -1,0 +1,9 @@
+Topic: whether Spotify can explain why my top 5 songs are my favorite
+
+Data set: Spotify and Spotify API
+
+Use API to determine similarities within songs
+
+Similarities like titles, genres, artists, popularity, beat, etc
+
+I expect to see similarities in some gernes and artists
